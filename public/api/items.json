@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "description": "Noise-cancelling over-ear headphones with Bluetooth connectivity.",
+    "price": 79.99,
+    "category": "Electronics",
+    "stock": 25,
+    "sku": "WH-001",
+    "available": true
+  },
+  {
+    "id": 2,
+    "name": "Stainless Steel Water Bottle",
+    "description": "Insulated bottle keeps drinks cold for 24 hours or hot for 12 hours.",
+    "price": 19.99,
+    "category": "Home & Kitchen",
+    "stock": 100,
+    "sku": "SSWB-002",
+    "available": true
+  },
+  {
+    "id": 3,
+    "name": "Yoga Mat",
+    "description": "Eco-friendly, non-slip yoga mat ideal for all types of exercise.",
+    "price": 24.99,
+    "category": "Sports & Outdoors",
+    "stock": 50,
+    "sku": "YM-003",
+    "available": true
+  },
+  {
+    "id": 4,
+    "name": "Ceramic Mug",
+    "description": "12 oz ceramic mug with a modern design.",
+    "price": 9.99,
+    "category": "Home & Kitchen",
+    "stock": 0,
+    "sku": "CM-004",
+    "available": false
+  }
+]

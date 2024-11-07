@@ -1,0 +1,41 @@
+[
+  {
+    "id": 1,
+    "name": "John Perez",
+    "email": "john.perez@example.com",
+    "age": 29,
+    "address": {
+      "street": "Las Flores Ave",
+      "city": "Mexico City",
+      "postal_code": "01000"
+    },
+    "phone": "555-1234",
+    "active": true
+  },
+  {
+    "id": 2,
+    "name": "Maria Lopez",
+    "email": "maria.lopez@example.com",
+    "age": 34,
+    "address": {
+      "street": "Sun Street",
+      "city": "Guadalajara",
+      "postal_code": "44100"
+    },
+    "phone": "555-5678",
+    "active": false
+  },
+  {
+    "id": 3,
+    "name": "Charles Mendoza",
+    "email": "charles.mendoza@example.com",
+    "age": 41,
+    "address": {
+      "street": "Green Valley Rd",
+      "city": "Monterrey",
+      "postal_code": "64000"
+    },
+    "phone": "555-9876",
+    "active": true
+  }
+]
