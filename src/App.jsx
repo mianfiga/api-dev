@@ -4,7 +4,10 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 
 import { UserResourceProvider } from "./contexts/user-resource";
+import { ResourceProvider } from "./contexts/resource";
 import UserList from "./components/UserList";
+import UserList2 from "./components/UserList2";
+import ItemList from "./components/ItemList";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -35,6 +38,13 @@ function App() {
       <UserResourceProvider>
         {count % 2 ? <UserList /> : null}
       </UserResourceProvider>
+      <h2>here we are using the new thing</h2>
+      <ResourceProvider>
+        <h3>Users</h3>
+        {count % 2 ? <UserList2 /> : null}
+        <h3>Items</h3>
+        {count % 2 ? <ItemList /> : null}
+      </ResourceProvider>
     </>
   );
 }
