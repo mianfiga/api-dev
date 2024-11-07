@@ -9,8 +9,14 @@ import UserList from "./components/UserList";
 import UserList2 from "./components/UserList2";
 import ItemList from "./components/ItemList";
 
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
+import UserListRQ from "./components/UserListRQ";
+import ItemListRQ from "./components/ItemListRQ";
+
 function App() {
   const [count, setCount] = useState(0);
+
+  const queryClient = new QueryClient();
 
   return (
     <>
@@ -45,6 +51,13 @@ function App() {
         <h3>Items</h3>
         {count % 2 ? <ItemList /> : null}
       </ResourceProvider>
+      <h2>here we are using react-query</h2>
+      <QueryClientProvider client={queryClient}>
+        <h3>Users</h3>
+        {count % 2 ? <UserListRQ /> : null}
+        <h3>Items</h3>
+        {count % 2 ? <ItemListRQ /> : null}
+      </QueryClientProvider>
     </>
   );
 }

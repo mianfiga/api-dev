@@ -13,7 +13,7 @@ export default function UserList() {
 
   return (
     <>
-      {userResource.loaging && <strong>loading</strong>}
+      {userResource.loading && <strong>loading</strong>}
       {userResource.error && <strong>Error</strong>}
       {userResource.loaded && userResource.data.map((data, key) => <div key={key}>{data.name}</div>)}
     </>

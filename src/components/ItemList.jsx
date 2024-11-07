@@ -13,7 +13,7 @@ export default function ItemList() {
 
   return (
     <>
-      {itemResource.loaging && <strong>loading</strong>}
+      {itemResource.loading && <strong>loading</strong>}
       {itemResource.error && <strong>Error</strong>}
       {itemResource.loaded && itemResource.data.map((data, key) => <div key={key}>{data.name}</div>)}
     </>
